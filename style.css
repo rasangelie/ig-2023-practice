@@ -84,16 +84,6 @@ input::placeholder {
 }
 
 
-
-
-/* h5:before,
-h5::after {
-    content: "";
-    flex: 1 1;
-    border-bottom: 2px solid black;
-    margin: auto;
-} */
-
 .separator,
 .fb-button {
     display: flex;
@@ -159,4 +149,9 @@ h5 {
 
 .play {
     margin-right: 5px;
+}
+
+.play, 
+.micro {
+    cursor: pointer;
 }
